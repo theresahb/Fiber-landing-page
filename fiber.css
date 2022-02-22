@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+/*Navigation bar START*/
+
+.nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2.5rem 6rem 2rem 6rem;
+    background: #f7f4dd;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+}
+
+.nav-menu li {
+    display: inline;
+    padding: 0.5rem;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-menu li a:hover {
+    color: hsl(245, 75%, 52%);
+}
+
+.sign ul {
+    list-style-type: none;
+}
+
+.sign li {
+    display: inline;
+    padding: 1.3rem;
+}
+
+.sign li a {
+    text-decoration: none;
+}
+
+
+.sign-in  {
+    font-weight: 600;
+    color: #000;
+}
+
+.sign-in a {
+    color: #000;
+}
+
+.sign-in a:hover {
+    color: hsl(245, 75%, 52%);
+}
+
+ul .sign-up {
+    background-color: hsl(245, 75%, 52%);
+    padding: 0.8rem 1.1rem;
+    border-radius: 4px;
+}
+
+.sign-up a {
+    color: #ffffff;
+    
+}
+
+.sign-up a:hover {
+    color: #e4e45b;
+    
+}
+/*Navigation bar END*/
+
+/*Hero START*/
+.hero-section {
+    padding: 9rem 6rem;
+    background: #f7f4dd;/*#fcfbf1*/
+    height: 115vh;
+}
+
+.review {
+    display: flex;
+    
+}
+
+.rate {
+    position: relative;
+    left: 0.6rem;
+    top: 0.15rem; 
+}
+
+.create {
+    padding-top: 0.9rem;
+}
+
+.create h1 {
+    font-size: 3.4rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+}
+
+.create p {
+    padding-top: 0.9rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    
+}
+
+.buttons {
+    padding-top: 0.9rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.start {
+    background-color: hsl(245, 75%, 52%);
+    padding: 0.8rem 1.1rem;
+    border-radius: 4px;
+}
+
+.start a {
+    color: #ffffff;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.view {
+    padding: 0.8rem 1.1rem;
+}
+
+.view a {
+    font-size: 0.88rem;
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+}
+
+.checks {
+    display: flex;
+    padding-top: 1.3rem;
+    gap: 1rem;
+}
+
+.card p {
+    font-size: 0.88rem;
+    position: relative;
+    left: 0.4rem;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    
+}
+
+.template {
+    display: flex;
+}
+
+.template p {
+    font-size: 0.88rem;
+    position: relative;
+    left: 0.4rem;
+}
+
+.bg-image img {
+    width: 42vw;
+    position: relative;
+    left: 40rem;
+    bottom: 27rem;
+}
+/*Hero END*/
+
+.why {
+    height: 230vh;
+    padding: 5rem 6rem;
+    background: #ffffff; 
+}
+
+.fiber p {
+    font-size: 2rem;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.fiber h2 {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    line-height: 3.3rem;
+    letter-spacing: -0.03rem;
+}
+
+.services {
+    display: flex;
+    padding-top: 3.5rem;
+    gap: 10rem;
+}
+
+.build h4 {
+    padding-top: 1.5rem;
+    
+}
+
+.build p {
+    padding-top: 1rem;
+    color: #3d3939;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.add h4 {
+    padding-top: 1.5rem;
+}
+
+.add p {
+    padding-top: 1rem;
+    color: #3d3939;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.responsive h4 {
+    padding-top: 1.5rem;
+}
+
+.responsive p {
+    padding-top: 1rem;
+    color: #3d3939;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.box {
+    width: 72vw;
+    height: 62vh;
+    padding: 7rem 3rem;
+    margin-top: 8rem;
+    background-color: hsl(245, 75%, 52%);
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.box-2 {
+    display: flex;
+}
+
+.diversify h2 {
+    font-size: 1.8rem;
+}
+
+.diversify p {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    color: #dbd3d3;
+    line-height: 1.5rem;
+}
+
+.trial {
+    background-color: #ffffff;
+    width: 8.5rem;
+    padding: 0.8rem 1.1rem;
+    margin-top: 1.5rem;
+    border-radius: 4px;
+}
+
+.trial a {
+    color: hsl(245, 75%, 52%);
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bg-image2 img {
+    width: 30vw;
+    position: relative;
+    left: 13rem;
+    bottom: 1.7rem;
+}
+
+.testimonies {
+    padding-top: 7rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.avatar-name {
+    display: flex;
+}
+
+.sarah {
+    border: 1px solid rgb(223, 217, 215);
+    border-radius: 3px;
+    padding: 3rem;
+}
+
+.name {
+    position: relative;
+    top: 0.3rem;
+    left: 0.6rem;
+}
+
+.name h4 {
+    font-size: 0.78rem;
+    color: hsl(245, 75%, 52%);
+}
+
+.name p {
+    font-size: 0.85rem;
+}
+
+.testimony1 {
+    padding-top: 0.8rem;
+}
+
+.testimony1 p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.avatar-name2 {
+    display: flex;
+}
+
+.matthew {
+    border: 1px solid rgb(223, 217, 215);
+    border-radius: 3px;
+    padding: 3rem;
+}
+
+.name2 {
+    position: relative;
+    top: 0.3rem;
+    left: 0.6rem;
+}
+
+.name2 h4 {
+    font-size: 0.78rem;
+    color: hsl(245, 75%, 52%);
+}
+
+.name2 p {
+    font-size: 0.85rem;
+}
+
+.testimony2 {
+    padding-top: 0.8rem;
+}
+
+.testimony2 p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.avatar-name3 {
+    display: flex;
+}
+
+.janice {
+    border: 1px solid rgb(223, 217, 215);
+    border-radius: 3px;
+    padding: 3rem;
+}
+
+.name3 {
+    position: relative;
+    top: 0.3rem;
+    left: 0.6rem;
+}
+
+.name3 h4 {
+    font-size: 0.78rem;
+    color: hsl(245, 75%, 52%);
+}
+
+.name3 p {
+    font-size: 0.85rem;
+}
+
+.testimony3 {
+    padding-top: 0.8rem;
+}
+
+.testimony3 p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+button {
+    margin-top: 1.3rem;
+    margin-bottom: -0.7rem;
+    padding: 0.5rem 3.5rem;
+    font-size: 0.7rem;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    background-color: #ffffff;
+    border-top: none;
+    border-right: 1px solid rgb(223, 217, 215);
+    border-bottom: 1px solid rgb(223, 217, 215);
+    border-left: 1px solid rgb(223, 217, 215);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #f7f4dd;
+    padding: 4rem 6rem;
+    font-size: 1rem;
+    letter-spacing: -0.03rem;
+}
+
+.footer-container {
+    display: flex;
+    gap: 8rem;
+}
+
+.fiber-box p {
+    padding-top: 0.8rem;
+    color: #3d3939;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.sitemap-box a p {
+    padding-top: 0.8rem;
+    color: #3d3939;
+}
+
+.sitemap-box a {
+    text-decoration: none;
+}
+
+.resources-box a p {
+    padding-top: 0.8rem;
+    color: #3d3939;
+}
+
+.resources-box a {
+    text-decoration: none;
+}
+
+.company-box a p {
+    padding-top: 0.8rem;
+    color: #3d3939;
+}
+
+.company-box a {
+    text-decoration: none;
+}
+
+.portfolios-box a p {
+    padding-top: 0.8rem;
+    color: #3d3939;
+}
+
+.portfolios-box a {
+    text-decoration: none;
+}
